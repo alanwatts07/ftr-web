@@ -24,8 +24,20 @@ const FeaturedArtist = () => {
                         <p><em>"The system doesn't just crash. It's rewritten."</em></p>
                     </div>
                     <div className="artist-actions">
-                        <button className="listen-btn">INITIATE PLAYBACK</button>
                         <button className="listen-btn secondary">PROFILE DATA</button>
+                    </div>
+                    <div className="spotify-embed-container" style={{ marginTop: '2rem', width: '100%' }}>
+                        <iframe
+                            data-testid="embed-iframe"
+                            style={{ borderRadius: '12px' }}
+                            src="https://open.spotify.com/embed/artist/4nFnZEANBT2uxw3aI2DK1Z?utm_source=generator&theme=0"
+                            width="100%"
+                            height="352"
+                            frameBorder="0"
+                            allowFullScreen
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"
+                        ></iframe>
                     </div>
                 </div>
             </div>
