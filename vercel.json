@@ -6,6 +6,10 @@
                 {
                     "key": "Content-Type",
                     "value": "image/jpeg"
+                },
+                {
+                    "key": "Accept-Ranges",
+                    "value": "none"
                 }
             ]
         }
